@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/rolex-academy/', // Matches repository name
   optimizeDeps: {
-    exclude: ['lucide-react'],
+    include: ['lucide-react'],
   },
   build: {
     outDir: 'dist',
